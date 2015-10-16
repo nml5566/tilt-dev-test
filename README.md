@@ -9,7 +9,7 @@ tweaking on other operation systems.
 
 You'll need to generate a consumer key/secret combo to use this app. 
 
-Find more about how here:
+Find out more about how to do that:
   https://apps.twitter.com
 
 Once you have both, edit the following two lines in TwitterApi.pm
