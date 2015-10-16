@@ -5,6 +5,20 @@ install them. This guide assumes the user is running Ubuntu 14.04 on an Amazon
 Web Services EC2 instance. You'll need to refer to outside documentation for
 tweaking on other operation systems.
 
+# TWITTER AUTHENTICATION
+
+You'll need to generate a consumer key/secret combo to use this app. 
+
+Find more about how here:
+  https://apps.twitter.com
+
+Once you have both, edit the following two lines in TwitterApi.pm
+
+```
+    my $consumerKey = "INSERT KEY HERE";
+    my $consumerSecret = "INSERT SECRET HERE";
+```
+
 # INSTALLATION
 
 ## Build Environment
